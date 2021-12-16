@@ -16,9 +16,13 @@ hr{
   border-width: 5px;
   width: 5%;
 }
+/*page*/
+.page{
+  /*float: left;*/
+}
 /*main*/
 .main{
-  float: left;
+  /*float: left;*/
 }
 /* Right column */
 .rightcolumn {
