@@ -23,6 +23,7 @@ hr{
 /*main*/
 .main{
   /*float: left;*/
+  width: 75%;
 }
 /* Right column */
 .rightcolumn {
