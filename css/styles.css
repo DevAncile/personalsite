@@ -16,17 +16,13 @@ hr{
   border-width: 5px;
   width: 5%;
 }
-/*page*/
-.container{
-  /*overflow:hidden;*/
-  background-color: lightgrey;
-}
 /*main*/
 .main{
+  position: relative;
   width: 85%;
   background-color: #E8F0F6;
-
 }
+
 /* Right column */
 .rightcolumn {
 
