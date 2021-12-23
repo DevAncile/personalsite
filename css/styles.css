@@ -5,26 +5,65 @@ h3 {color: #66BFFF;
 
 }
 body{
-  background-color: #EFFCEF;
+background-color: #EFFCEF;
 }
 
 hr{
 
-  background-color: white;
-  border-style:dotted none none;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%;
+background-color: white;
+border-style:dotted none none;
+border-color: grey;
+border-width: 5px;
+width: 5%;
 }
+body {
+font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+height: 100%;
+width: 160px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #111;
+overflow-x: hidden;
+padding-top: 20px;
+}
+
+.sidenav a {
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+.main {
+margin-left: 160px; /* Same as the width of the sidenav */
+font-size: 28px; /* Increased text to enable scrolling */
+padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
 /*main*/
-.main{
+/*.main{
   position: relative;
   width: 85%;
   background-color: #E8F0F6;
-}
+}*/
 
 /* Right column */
-.rightcolumn {
+/*.rightcolumn {
 
   height: 100%;
   width: 15%;
@@ -37,4 +76,4 @@ hr{
   overflow-x: hidden;
   padding-top: 20px;
 
-}
+}*/
